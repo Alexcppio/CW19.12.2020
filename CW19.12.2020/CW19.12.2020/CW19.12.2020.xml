@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CW19.12.2020</name>
+    </assembly>
+    <members>
+        <member name="T:CW19._12._2020.Distance">
+            <summary>
+            Предоставляет метод для перевода единиц длинны
+            </summary>
+        </member>
+        <member name="F:CW19._12._2020.Distance.kilometersInMile">
+            <summary>
+            Количество километров в 1 миле
+            </summary>
+        </member>
+        <member name="M:CW19._12._2020.Distance.KilometersToMiles(System.Double)">
+            <summary>
+            Переводит километры в мили
+            </summary>
+            <param name="kilometers">Расстояние в километрах</param>
+            <exception cref="T:System.ArgumentException">
+            <code>
+            int c = Distance.KilometersToMiles(20);
+            </code>
+            Если параметр<paramref name="kilometers"/>меньше нуля
+            </exception>
+            <returns>расстояние в милях</returns>
+            Обратная операция <see>MilesToKilometers</see>
+        </member>
+        <member name="M:CW19._12._2020.Distance.MilesToKilometers(System.Double)">
+            <summary>
+            Переводит мили в километры
+            </summary>
+            <param name="miles">Расстояние в милях</param>
+            <exception cref="T:System.ArgumentException">Если параметр<paramref name="miles"/>меньше нуля</exception>
+            <returns>Расстояние в километрах</returns>
+        </member>
+    </members>
+</doc>
